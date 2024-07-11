@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class application {
+    public static void main(String[] args) {
+        System.out.println("\nWelcome to the Arjuna Jee batch 2024");
+        System.out.println("\nBatch price 4000!!! \tOFFER VALID TILL THIS DIWALI");
+        System.out.println("\nValid till 10th of June 2024 to 11th of June 2025");
+
+        System.out.println("\nBatch details are given below!!");
+
+        System.out.println("\nPankaj Sir(Chemistry) - MTech: IITM Gwalior \n                        BTech: NIT Delhi \n                        Teaching experience of 15+ years");
+        System.out.println("Rajwant Sir(Physics) - MTech: IIT Lucknow \n                       BTech: IIT Delhi \n                       Teaching experience of 10+ years");
+        System.out.println("Ramujaan Sir(Maths) - MTech: MIT MANIPAL \n                      BTech: NIT ROURKELA \n                      Teaching experience of 15+ years");
+
+        System.out.println("Kindely fill the form for to buy this course");
+
+        System.out.print("\nEnter your name: ");
+        Scanner sc=new Scanner(System.in);
+        String name = sc.next();
+
+        System.out.print("Enter your email id: ");
+        Scanner sc1=new Scanner(System.in);
+        String email=sc1.nextLine();
+
+        System.out.print("Enter your phone number: ");
+        Scanner sc2=new Scanner(System.in);
+        Long number=sc2.nextLong();
+
+        System.out.print("From where have you listen to this site: ");
+        Scanner sc3=new Scanner(System.in);
+        String site=sc3.nextLine();
+
+        System.out.print("Enter your mode of payment: ");
+        Scanner sc4=new Scanner(System.in);
+        String mop = sc4.nextLine();
+
+        System.out.println("\nThanks for filling the form \nFee Recipet will be shortly shared with you");
+        System.out.println("Thanks for you valuable time.");
+
+        System.out.println("\nComment down your feedback");
+        Scanner sc5 = new Scanner(System.in);
+        String feedback = sc5.nextLine();
+
+        System.out.println("\nTHANK YOU!!!");
+        
+    }
+}
